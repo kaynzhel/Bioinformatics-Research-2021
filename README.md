@@ -1,4 +1,5 @@
 # Bioinformatics-Research-2021
+This is a repository containing some of the scripts I have written during my Research on a Coronavirus study in the University of Alberta. (still ongoing)
 
 ## fasta2csv.py
 ### DESCRIPTION:
