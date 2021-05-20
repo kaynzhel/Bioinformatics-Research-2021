@@ -5,6 +5,9 @@ Date Last Edited: May 20, 2021
 
 This code only prints out the Accession ID and the Sequence from the fasta file.
 From here, you can change the code to accommodate with your needs.
+
+References:
+Biopython Documentation
 '''
 
 from Bio import SeqIO
