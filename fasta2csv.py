@@ -1,7 +1,7 @@
 '''
 Author: Kaye Ena Crayzhel F. Misay
 Date Created: May 14, 2021
-Date Last Edited: June 01, 2021
+Date Last Edited: June 09, 2021
 
 This code only prints out the Accession ID and the Sequence from the fasta file.
 From here, you can change the code to accommodate with your needs.
@@ -27,7 +27,7 @@ def main():
 
 def getFileName():
     # command line argument
-    description = 'Give the file name of the converted csv file.'
+    description = 'Give the file name of the fasta file.'
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument("file_name", type=str)
     args = parser.parse_args()
