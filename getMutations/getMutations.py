@@ -1,7 +1,7 @@
 '''
 Author: Kaye Ena Crayzhel F. Misay
 Date Created: May 10, 2021
-Date Last Edited: June 09, 2021
+Date Last Edited: July 15, 2021
 
 The code is edited for simplicity and general use.
 It only prints out the Accession ID of the sequence, mutations, and mutation positions.
@@ -66,7 +66,7 @@ class Task:
             
             # determines the position of the mutation
             for mutation in self.mutations:
-                self.mutation_pos.append(mutation[1:(len(mutation)-1)])
+                self.mutation_pos.append(mutation[1:-1])
             
             # writing the row to the csv file
             self.row_output = {'Accession ID':row['Accession'], 'Mutations': ','.join(self.mutations), 'Mutation Positions': ','.join(self.mutation_pos)}
