@@ -1,5 +1,5 @@
 # Bioinformatics-Research-2021
-This is a repository containing some of the scripts (general ones) I wrote during my research on Sars-CoV-2 and the Influenza Virus in the University of Alberta.
+This is a repository containing some of the scripts (general ones) I wrote during a four-month research on Sars-CoV-2 and the Influenza Virus in the University of Alberta.
 
 ## fasta2csv.py
 ### DESCRIPTION:
